@@ -1,0 +1,42 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 12px;
+}
+
+
+
+
+.row{
+  display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+}
+
+.bchart-container,
+.lchart-container,
+.pchart-container
+{
+  margin-top: 20px;
+  background-color: #f2f2f2; 
+  border: 1px solid #ddd; 
+  padding: 10px; 
+  
+  border-radius: 5px; 
+}
+
+.bchart-container {
+ 
+  margin-right: 50px; 
+}
+.pchart-container{
+  margin-right: 50px; 
+}
+
+
